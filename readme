@@ -4,3 +4,4 @@ Using RsaCtfTool: ./RsaCtfTool.py --dumpkey --key privatekey.pem
 ==> q not Prime
 using next_prime1 and next_prime2 
 ==> Find the remaining prime numbers
+run solve_rsa.py => flag
