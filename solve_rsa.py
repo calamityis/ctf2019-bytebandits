@@ -27,7 +27,7 @@ n = 3231700607131100730071487668866995196044410266971548403213034542752465495163
 #use RsaCtfTools find p
 d = p
 while True:
-    d = next_prime2(d)
+    d = next_prime2(d) # d = next_prime1(d)
     if n % d == 0:
         print d
         break
